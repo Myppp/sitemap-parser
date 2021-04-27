@@ -6,11 +6,11 @@ SEO tool for parsing and checking url
 `pip install -r  requirements.txt`
 
 ### Settings:
-sitemap_url - Sitemap URL
+- sitemap_url: Sitemap URL
 
-urls_limit - You can chose limit of urls
+- urls_limit: You can chose limit of urls
 
-xml_selector - You can chose xml file
+- xml_selector: You can chose xml file
 
 
 ![GitHub all releases](https://img.shields.io/github/downloads/Myppp/sitemap-parser/total)
