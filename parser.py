@@ -47,11 +47,11 @@ if xml_selector != 0:
 print(no_success_urls)
 print(no_canonical_urls)
 
-with open('no_success_urls.txt', 'w', encoding='utf-8') as f:
+with open('reports/no_success_urls.txt', 'w', encoding='utf-8') as f:
     for list_element in no_success_urls:
         value = "url: " + list_element["url"] + " status_code:" + str(list_element["status_code"])
         f.write(value)
 
-with open('no_canonical_urls.txt', 'w', encoding='utf-8') as f:
+with open('reports/no_canonical_urls.txt', 'w', encoding='utf-8') as f:
     for list_element in no_canonical_urls:
         f.write(list_element)
